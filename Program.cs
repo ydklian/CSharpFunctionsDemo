@@ -8,7 +8,6 @@ class Program
         GreetUser("Lian");
         int result = Add(17, 11);
         Console.WriteLine("Sum: " + result);
-        MultiplyAndShow(7, 7);
     }
 
     static void GreetUser(string name)
@@ -19,11 +18,5 @@ class Program
     static int Add(int a, int b)
     {
         return a + b;
-    }
-
-    static void MultiplyAndShow(int x, int y)
-    {
-        int product = x * y;
-        Console.WriteLine("Product: " + product);
     }
 }
